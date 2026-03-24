@@ -1,70 +1,206 @@
-# Getting Started with Create React App
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060610,100:00c8ff&height=220&section=header&text=Gamith+Ranasinghe&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Personal+Portfolio+Website&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+[![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://fonts.google.com/)
 
-In the project directory, you can run:
+[![Live Portfolio](https://img.shields.io/badge/View_Portfolio-00c8ff?style=for-the-badge&logo=githubpages&logoColor=black)](https://github.com/Gamibro)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Overview
 
-### `npm test`
+This is my **personal developer portfolio website** built entirely with **React.js**. It is designed to give recruiters, clients, and collaborators a clear, professional, and visually engaging overview of who I am, what I have built, the technologies I work with, and how to reach me.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The portfolio features a **dark space-themed aesthetic** with an animated particle background, smooth scroll reveal animations, a typing effect hero section, and a fully responsive layout — all built without any external UI libraries, using only React hooks and inline styles with CSS animations.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Layer | Technology |
+|---|---|
+| **Framework** | React.js |
+| **Language** | JavaScript (ES6+) |
+| **Styling** | Inline CSS + CSS Animations (via `<style>` injection) |
+| **Fonts** | Google Fonts — Syne (headings) + DM Sans (body) |
+| **Animations** | CSS Keyframes + IntersectionObserver API |
+| **Canvas** | HTML5 Canvas API (particle system) |
+| **Deployment** | GitHub Pages |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🎨 Design & Animations
+- **Dark space theme** with a deep navy background (`#060610`) and electric cyan & purple accent colors
+- **Animated particle canvas** — 100 floating particles with connecting lines rendered on an HTML5 Canvas, creating a live dynamic background throughout the entire page
+- **Smooth scroll reveal** — every section fades and slides upward into view using the `IntersectionObserver` API as the user scrolls down the page
+- **Floating photo ring** — profile photo in the hero section with a CSS float animation and a gradient ring border
+- **Typing animation** — the subtitle in the hero cycles through three roles (Software Engineer, Full Stack Developer, Aspiring Data Scientist) with a blinking cursor effect
+- **Hover micro-interactions** — every card, tag, button, and link has a custom hover state with smooth transitions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧭 Navigation
+- Fixed top navigation bar with **blur backdrop filter** for a frosted glass effect
+- Navigation background dynamically darkens on scroll via a `scroll` event listener
+- Smooth scroll to each section on nav link click
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 🏠 Hero Section
+- Animated "Available for Opportunities" badge with a pulsing green dot
+- Profile photo with a floating animation and gradient ring
+- Large display name with a multi-color gradient text effect
+- Typing animation cycling through job titles with a blinking cursor
+- Short personal introduction paragraph
+- Two CTA buttons — **View My Work** and **Get In Touch** — with hover lift and glow effects
+- Animated scroll indicator at the bottom
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📊 Stats Section
+- Four metric cards displaying key facts at a glance:
+  - **7+ Projects Built**
+  - **6 Months Internship**
+  - **HND Distinction**
+  - **AI/ML Passion**
+- Cards have hover lift and border glow effects
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🛠️ Tech Stack Section
+- Six category cards covering Frontend, Backend, Database & APIs, AI & Data, Tools, and Soft Skills
+- Each card contains clickable skill tags with hover highlight effects
+- Tags cover the full breadth of the technology stack — React, Node.js, C#, PHP, Java, Python, MySQL, MongoDB, OpenAI GPT-4, LangChain, and more
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 💼 Experience Section
+- Dedicated card for the **6-month Full Stack Web Development Internship** at **Dockyard Total Solutions — Colombo Dockyard**
+- Gradient top border bar across the card
+- Bullet-point list of key responsibilities including app development, QA, ER diagrams, DFDs, documentation, and the Leadership Dashboard project
+- Completion badge displayed on the card
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🚀 Projects Section
+- Responsive grid of **8 key projects** built across healthcare, finance, fitness, salon, tuition, food ordering, and data visualization domains
+- Each project card includes:
+  - Project emoji icon
+  - Project title
+  - Technology stack tags (purple accent style)
+  - Short project description
+  - GitHub link (where available)
+  - Animated bottom bar that slides in on hover
+- Projects include: CeyHealth, Money Lending System, Salon Management, Cake Tuition, FitnessWeb, Food Ordering System, Leadership Dashboard, and LuxeVista
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 📌 Currently Section
+- Three cards showing current status:
+  - 📚 Pursuing a **Bachelor's Degree in Data Science**
+  - 💼 **Open to Work** — internship completed, seeking full-time roles
+  - 🤖 Actively exploring **AI and Machine Learning**
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 📫 Contact Section
+- Three contact cards linking to:
+  - 📧 **Email** — gamithranasinghe001@gmail.com
+  - 💼 **LinkedIn** — gamith-ranasinghe
+  - 💻 **GitHub** — Gamibro
+- Each card has a hover glow and lift animation
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🗂️ Project Structure
+
+```
+portfolio/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── Portfolio.jsx        # Main portfolio component (all sections)
+│   └── index.js             # React entry point
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or above)
+- [npm](https://www.npmjs.com/)
+
+---
+
+### 🚀 Running Locally
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/Gamibro/portfolio.git
+```
+
+**2. Navigate to the project directory**
+```bash
+cd portfolio
+```
+
+**3. Install dependencies**
+```bash
+npm install
+```
+
+**4. Start the development server**
+```bash
+npm start
+```
+
+Opens at **http://localhost:3000**
+
+---
+
+### 🌐 Deploying to GitHub Pages
+
+**1. Install gh-pages**
+```bash
+npm install gh-pages --save-dev
+```
+
+**2. Add to `package.json`**
+```json
+"homepage": "https://Gamibro.github.io/portfolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+**3. Deploy**
+```bash
+npm run deploy
+```
+
+---
+
+## 📫 Contact
+
+Built by **Gamith Ranasinghe**
+
+📧 [gamithranasinghe001@gmail.com](mailto:gamithranasinghe001@gmail.com)
+🔗 [LinkedIn](https://linkedin.com/in/gamith-ranasinghe)
+💻 [GitHub](https://github.com/Gamibro)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:060610&height=120&section=footer&animation=fadeIn" width="100%"/>
